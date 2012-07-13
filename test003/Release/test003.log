@@ -1,0 +1,24 @@
+﻿已經開始建置於 2012/6/26 上午 10:15:30。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\farsail\Documents\Visual Studio 2010\Projects\socket-test\test003\test003.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\test003.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\test003.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test003.cpp
+         test003.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\farsail\Documents\Visual Studio 2010\Projects\socket-test\Release\test003.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\test003.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\farsail\Documents\Visual Studio 2010\Projects\socket-test\Release\test003.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\farsail\Documents\Visual Studio 2010\Projects\socket-test\Release\test003.lib" /MACHINE:X86 Release\stdafx.obj
+         Release\test003.obj
+         正在產生程式碼
+         已完成程式碼產生
+         test003.vcxproj -> C:\Users\farsail\Documents\Visual Studio 2010\Projects\socket-test\Release\test003.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\farsail\Documents\Visual Studio 2010\Projects\socket-test\Release\test003.exe;#1" /manifest Release\test003.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\test003.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\test003.lastbuildstate"。
+     1>專案 "C:\Users\farsail\Documents\Visual Studio 2010\Projects\socket-test\test003\test003.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.65

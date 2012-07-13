@@ -8,7 +8,7 @@
 #include <string>
 #include <stdio.h> 
 #include <winsock.h>//dont forget to add wsock32.lib to linker dependencies
-
+#pragma comment(lib, "ws2_32.lib")
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -25,12 +25,15 @@ int _tmain(int argc, _TCHAR* argv[])
 	char            SendBuf[1024] = "";
 	char            RecvBuf[1024] = "";
 	
-	string			filename = "Desert";
+	string			filename = "06-21-16-56-11.jpg";
 	string			urlString = "/restful/services/icfff/sharelink/create/";
 	string			hostString = "124.9.14.25";
 	string			oldfilename;
 	string			newfilename;
 
+
+	cout << "filename:";
+	cin >> filename;
 	string			fullurl = hostString;
 	strcpy_s(host,fullurl.c_str());
 
@@ -93,7 +96,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	bytesSent = send( ConnectSocket, SendBuf, strlen(SendBuf), 0 );
 	
 	//system("pause");
-	Sleep(100);
+	Sleep(50);
 	string		YYY;
 	string		linkvalue;
 
